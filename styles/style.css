@@ -405,6 +405,7 @@ h2 {
 
     .blur {
         top: 10vh;
+        height: 90vh;
     }
 
     .blur h1 {
