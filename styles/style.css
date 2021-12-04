@@ -209,7 +209,7 @@ h2 {
 
 .about .about-container p span {
     color: #f8c000;
-    background: linear-gradient(to right, #121212, #373737);
+    background: linear-gradient(to right, #121212, #252525);
     padding: 2px 15px;
 }
 
@@ -436,7 +436,7 @@ h2 {
     }
 
     .about .about-container {
-        width: 85%;
+        width: 100%;
         padding-block: 1.5rem;
         line-height: 1.5em;
         text-align: left;
