@@ -144,13 +144,22 @@ h2 {
 }
 
 .courses-container > div > span {
-    padding: 1rem;
-    padding-top: 1.5rem;
-    text-align: center;
-    font-size: 3.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    color: #f8c000;
+    color: #eeeeee;
     width: 100%;
+    background: #f8c000;
+    border-radius: 5px;
+    margin-top: 3rem;
+}
+
+.courses-container > div > span a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
 }
 
 .courses-container > div > p > span {
@@ -197,6 +206,13 @@ h2 {
 .about .about-container p {
     color: #eeeeee;
 }
+
+.about .about-container p span {
+    color: #f8c000;
+    background: linear-gradient(to right, #121212, #373737);
+    padding: 2px 15px;
+}
+
 
 .contact .contact-container {
     width: 75%;
@@ -253,6 +269,7 @@ h2 {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-size: 1.3em;
     transition: transform 300ms;
 }
 
@@ -427,7 +444,7 @@ h2 {
     }
 
     .courses .courses-container, .payments .payments-container {
-        width: 85%;
+        width: 100%;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
@@ -440,7 +457,7 @@ h2 {
     }
 
     .inscription-container {
-        width: 85%;
+        width: 100%;
     }
 
     .contact .contact-container {

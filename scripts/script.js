@@ -107,22 +107,6 @@ function addEvents(){
     });
   });
 
-  let card1 = document.getElementById("courses-card1");
-  let card2 = document.getElementById("courses-card2");
-  let card3 = document.getElementById("courses-card3");
-
-  card1.addEventListener("click", ()=>{
-    window.location.href = "#inscription";
-  });
-
-  card2.addEventListener("click", ()=>{
-    window.location.href = "#inscription";
-  });
-
-  card3.addEventListener("click", ()=>{
-    window.location.href = "#inscription";
-  });
-
   let btnmenu = document.getElementById("btn-burger-menu");
   let btnCloseMenu = document.getElementById("btn-close-menu");
   var sidebar = document.getElementById("sidebar");
